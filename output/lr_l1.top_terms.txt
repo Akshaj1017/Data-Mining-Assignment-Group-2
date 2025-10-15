@@ -1,0 +1,3 @@
+Top terms for Logistic Regression (L1)
+→ DECEPTIVE: security, construction, location, rate, floor, walk, small, self, bed, comfortable
+→ TRUTHFUL:  recently, decided, luxury, smelled, food, website, smell, finally, heart, wait

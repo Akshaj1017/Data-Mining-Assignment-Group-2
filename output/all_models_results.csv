@@ -1,0 +1,15 @@
+model,acc,prec,rec,f1,cv_best_alpha,cv_best_score_macroF1,best_params_fixed,family,best_params,cv_best_score
+NB__uni+bi,0.86875,0.8314606741573034,0.925,0.8757396449704142,,,,NB,"{""clf__alpha"": 1.0}",
+NB__uni+bi_topk,0.8625,0.8295454545454546,0.9125,0.8690476190476191,,,,NB,"{""clf__alpha"": 1.0, ""select__k"": 2000}",
+NB__uni_topk,0.85,0.7978723404255319,0.9375,0.8620689655172413,,,,NB,"{""clf__alpha"": 0.5, ""select__k"": 2000}",
+RF__uni+bi,0.84375,0.7956989247311828,0.925,0.8554913294797688,,,,RF,"{""n_estimators"": 200, ""max_features"": 90}",
+NB__uni,0.84375,0.8089887640449438,0.9,0.8520710059171598,,,,NB,"{""clf__alpha"": 0.5}",
+RF__uni,0.78125,0.7472527472527473,0.85,0.7953216374269005,,,,RF,"{""n_estimators"": 160, ""max_features"": 70}",
+LR_L1__uni+bi,0.78125,0.7922077922077922,0.7625,0.7770700636942676,,,,LR_L1,"{""clf__C"": 10}",
+LR_L1__uni,0.76875,0.7866666666666666,0.7375,0.7612903225806451,,,,LR_L1,"{""clf__C"": 10}",
+GB__uni+bi,0.7625,0.7692307692307693,0.75,0.759493670886076,,,,GB,"{""learning_rate"": 0.3, ""max_depth"": 2}",0.7859375
+GB__uni,0.75,0.7631578947368421,0.725,0.7435897435897436,,,,GB,"{""learning_rate"": 0.3, ""max_depth"": 2}",0.7921875
+DT__uni+bi__alpha=1e-02,0.6875,0.6666666666666666,0.75,0.7058823529411765,0.0,0.6508621249388471,"{""tree__criterion"": ""entropy"", ""tree__max_depth"": null, ""tree__min_samples_leaf"": 1, ""tree__ccp_alpha"": 0.01}",DT,,
+DT__uni+bi__alpha=0e+00,0.6875,0.6875,0.6875,0.6875,0.0,0.6508621249388471,"{""tree__criterion"": ""entropy"", ""tree__max_depth"": null, ""tree__min_samples_leaf"": 1, ""tree__ccp_alpha"": 0.0}",DT,,
+DT__uni__alpha=1e-02,0.6375,0.6341463414634146,0.65,0.6419753086419753,0.01,0.6604743308616203,"{""tree__criterion"": ""entropy"", ""tree__max_depth"": null, ""tree__min_samples_leaf"": 1, ""tree__ccp_alpha"": 0.01}",DT,,
+DT__uni__alpha=1e-03,0.64375,0.6533333333333333,0.6125,0.632258064516129,0.01,0.6604743308616203,"{""tree__criterion"": ""entropy"", ""tree__max_depth"": null, ""tree__min_samples_leaf"": 1, ""tree__ccp_alpha"": 0.001}",DT,,

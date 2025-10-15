@@ -1,0 +1,3 @@
+Top terms (directional log-odds on training set)
+→ DECEPTIVE: relax, fancy, egg, considered, sorely
+→ TRUTHFUL:  security, priceline, sofa, gift, directly

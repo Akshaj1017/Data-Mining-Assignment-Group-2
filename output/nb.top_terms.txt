@@ -1,0 +1,3 @@
+Top terms for Naive Bayes
+→ DECEPTIVE: luxury, recently stayed, recently, smell, decided
+→ TRUTHFUL:  elevator, security, construction, open, priceline

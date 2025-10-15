@@ -1,0 +1,13 @@
+Top 5 features for DECEPTIVE (highest importance):
+- 'location': 0.010387
+- 'finally': 0.008450
+- 'decided': 0.007533
+- 'luxury': 0.007497
+- 'recently': 0.006693
+
+Top 5 features for TRUTHFUL (lowest importance):
+- 'absolutely no': 0.000000
+- 'work computer': 0.000000
+- 'worst customer': 0.000000
+- 'good staff': 0.000000
+- 'world class': 0.000000

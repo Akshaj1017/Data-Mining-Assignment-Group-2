@@ -1,0 +1,13 @@
+Top 5 features for DECEPTIVE:
+- 'location': 0.066835
+- 'luxury': 0.055563
+- 'recently': 0.036681
+- 'smell': 0.035253
+- 'floor': 0.031017
+
+Top 5 features for TRUTHFUL:
+- 'yeah right': 0.000000
+- 'able': 0.000000
+- 'able check': 0.000000
+- 'able find': 0.000000
+- 'able relax': 0.000000
